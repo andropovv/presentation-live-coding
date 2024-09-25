@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  color: black;
+  padding-top: 100px;
+}
+#wrapper {
+  width: 70vw;
+  margin: 0 auto;
+}
+h1 {
+  background-color: yellow;
+}
+
+.blocks {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 100px;
+}
+
+.blocks div {
+  width: 100px;
+  height: 100px;
+  text-justify: center;
+  border: 1px solid black;
+}
+
+.change-color {
+  display: flex;
+  gap: 30px;
+}
+.color-block {
+  background-color: aqua;
+  border-radius: 3px;
+  height: 100px;
+  width: 100px;
+}
+button {
+  background-color: white;
+  font-size: medium;
+  padding: 4px 6px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  color: rgb(104, 25, 157);
+}
